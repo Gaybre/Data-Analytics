@@ -1,11 +1,14 @@
+// Font
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
 // Colors
 $primary: #01B075;
 $secondary: #C3E1E1;
 
 $grayscale-1: #FFFFFF;
 $grayscale-2: #FBF9FC;
-$grayscale-3: #616975;
-$grayscale-4: #404b53;
+$grayscale-3: #afaaaa;
+$grayscale-4: #565858;
 $grayscale-5: #202125;
 $grayscale-6: #16171B;
 
@@ -13,12 +16,12 @@ $danger: #FF4A3A;
 $alert: #F2C94C;
 
 // Spacing
-$small: 10px;
-$medium: 20px;
-$large: 50px;
+$spacing-small: 10px;
+$spacing-medium: 20px;
+$spacing-large: 50px;
 
 // Border-radius
-$border-radius: 15px;
+$border-radius: 10px;
 
 // Shadow
 @mixin shadow($color) {
@@ -28,4 +31,12 @@ $border-radius: 15px;
 * {
   margin: 0;
   box-sizing: border-box;
+}
+
+html,
+body {
+  font-size: 16px;
+  font-family: 'Poppins', sans-serif;
+  background-color: $grayscale-2;
+  color: $grayscale-4;
 }

@@ -1,5 +1,6 @@
 import React from 'react'
+import Navbar from '../components/Navbar'
 
-const Dashboard = () => 'Dashboard'
+const Dashboard = () => <Navbar />
 
 export default Dashboard

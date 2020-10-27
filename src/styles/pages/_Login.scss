@@ -1,0 +1,62 @@
+.login {
+  display: grid;
+  grid-template-columns: minmax(60px, 100px) 1fr;
+  width: 40%;
+  margin: $spacing-medium *2 auto;
+  border-radius: $border-radius;
+  @include shadow($primary);
+  &__left {
+    background: $primary;
+    border-bottom-left-radius: inherit;
+    border-top-left-radius: inherit;
+  }
+  &__right {
+    padding: $spacing-medium $spacing-large;
+    background-color: $grayscale-1;
+    border-top-right-radius: inherit;
+    border-bottom-right-radius: inherit;
+    figure {
+      width: 100%;
+      text-align: center;
+    }
+    img {
+      width: 90%;
+      min-width: 10rem;
+      margin-bottom: $spacing-medium *3;
+    }
+    h1 {
+      margin-bottom: $spacing-medium *2;
+    }
+  }
+  &__right-alert {
+    margin-top: $spacing-medium;
+    padding: $spacing-small;
+    border-radius: $border-radius;
+    background-color: $alert;
+  }
+}
+
+@media screen and(max-width: 1024px) {
+  .login {
+    width: 60%;
+  }
+}
+
+@media screen and(max-width: 768px) {
+  .login {
+    width: 80%;
+  }
+}
+
+@media screen and(max-width: 400px) {
+  .login {
+    grid-template-columns: 40px 1fr;
+    width: 100%;
+    margin-top: 0;
+    border-radius: 0;
+    height: 100vh;
+    &__right {
+      padding: $spacing-medium;
+    }
+  }
+}

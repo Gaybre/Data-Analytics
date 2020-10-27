@@ -1,0 +1,26 @@
+.input {
+  width: 100%;
+  label {
+    color: $primary;
+    font-weight: bold;
+  }
+  input {
+    width: 100%;
+    margin-top: $spacing-small /2;
+    margin-bottom: $spacing-small;
+    padding-left: $spacing-small;
+    border-radius: $border-radius;
+    border: 1px solid $grayscale-3;
+    color: $grayscale-3;
+    font-weight: bold;
+    line-height: $spacing-small *3;
+    outline: none;
+    &::placeholder {
+      color: $grayscale-3;
+      font-weight: bold;
+    }
+    &:focus {
+      @include shadow($primary);
+    }
+  }
+}

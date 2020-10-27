@@ -2,4 +2,9 @@
 @import './Globals.scss';
 
 // Components
-@import './components/Navbar.scss'
+@import './components/Input';
+@import './components/Button';
+@import './components/Navbar.scss';
+
+// Pages
+@import './pages/Login.scss';

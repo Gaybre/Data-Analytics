@@ -1,0 +1,41 @@
+%btn {
+  width: 100%;
+  margin-top: $spacing-medium;
+  border-radius: $border-radius;
+  line-height: $spacing-small *3;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 0.3rem;
+  transition: 200ms;
+  outline: none;
+  &:hover {
+    cursor: pointer;
+  }
+  &:active {
+    transform: scale(.9);
+  }
+}
+
+.btn--normal {
+  @extend %btn;
+  border:  1px solid $primary;
+  background-color: $primary;
+  color: $grayscale-1;
+  &:hover {
+    @include shadow($primary);
+  }
+}
+
+.btn--secondary {
+  @extend %btn;
+  margin-top: $spacing-small;
+  border: none;
+  font-size: .7rem;
+  color: $grayscale-4;
+  letter-spacing: normal;
+  background-color: transparent;
+  &:hover {
+    color: $primary;
+    text-decoration: underline;
+  }
+}
