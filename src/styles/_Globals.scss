@@ -6,7 +6,7 @@ $primary: #01B075;
 $secondary: #C3E1E1;
 
 $grayscale-1: #FFFFFF;
-$grayscale-2: #FBF9FC;
+$grayscale-2: #f7f7f7;
 $grayscale-3: #afaaaa;
 $grayscale-4: #565858;
 $grayscale-5: #202125;
@@ -28,6 +28,11 @@ $border-radius: 10px;
   box-shadow: 0 0 10px $color;
 }
 
+// Wrapper
+@mixin wrapper($padding-top) {
+  padding: $padding-top $spacing-medium *2;
+}
+
 * {
   margin: 0;
   box-sizing: border-box;
@@ -39,4 +44,5 @@ body {
   font-family: 'Poppins', sans-serif;
   background-color: $grayscale-2;
   color: $grayscale-4;
+  font-weight: bold;
 }

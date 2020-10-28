@@ -1,0 +1,12 @@
+.nav {
+  height: 100%;
+  a {
+    margin-right: $spacing-medium;
+    line-height: 100%;
+    color: $grayscale-4;
+    text-decoration: none;
+  }
+  .active {
+    color: $primary;
+  }
+}

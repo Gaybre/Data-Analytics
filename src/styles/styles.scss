@@ -1,10 +1,17 @@
 // Global styles, variables and mixins
-@import './Globals.scss';
+@import './Globals';
 
 // Components
 @import './components/Input';
 @import './components/Button';
-@import './components/Navbar.scss';
+@import './components/Profile';
+@import './components/Nav';
+@import './components/Darkmode';
+@import './components/Header';
+@import './components/TopicData';
+@import './components/Navbar';
+@import './components/BodyContainer';
 
 // Pages
-@import './pages/Login.scss';
+@import './pages/Login';
+@import './pages/Home';

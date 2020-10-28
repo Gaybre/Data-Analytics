@@ -3,16 +3,21 @@ import { BrowserRouter, Route, Switch} from 'react-router-dom'
 import './styles/styles.scss'
 
 import Login from './pages/Login'
-import Dashboard from './pages/Dashboard'
-import Navbar from './components/Navbar'
+import Layout from './pages/Layout'
+import Home from './pages/Home'
+import TopLine from './pages/TopLine'
+import BottomLine from './pages/BottomLine'
 
 const App = () => {
   return (
     <BrowserRouter>
       <Switch>
         <Route exact path="/login" component={Login} />
-        <Route exact path="/navbar" component={Navbar} />
-        <Route exact path="/dashboard" component={Dashboard} />
+        <Layout>
+          <Route exact path="/home" component={Home} />
+          <Route exact path="/top-line" component={TopLine} />
+          <Route exact path="/bottom-line" component={BottomLine} />
+        </Layout>
       </Switch>
     </BrowserRouter>
   )

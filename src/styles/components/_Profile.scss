@@ -1,0 +1,37 @@
+.profile {
+  display: flex;
+  align-items: center;
+  &:hover {
+    cursor: pointer;
+  }
+  &:hover .profile__menu {
+    right: 0;
+  }
+  & img {
+    border-radius: 50%;
+    width: 50px;
+    margin-right: $spacing-small /2;
+  }
+  & span {
+    color: black;
+  }
+  &__menu {
+    position: absolute;
+    top: $spacing-medium *3 + 5;
+    right: -$spacing-large *3;
+    border-top-left-radius: $border-radius;
+    border-bottom-left-radius: $border-radius;
+    background-color: rgba(1,176,117, .8);
+    transition: 500ms;
+  }
+  &__menu a {
+    display: block;
+    padding: 0 $spacing-small;
+    line-height: $spacing-medium *2;
+    color: $grayscale-4;
+    text-decoration: none;
+    &:hover {
+      color: $grayscale-1;
+    }
+  }
+}

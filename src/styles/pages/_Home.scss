@@ -1,0 +1,6 @@
+.home {
+  display: flex;
+  justify-content: space-between;
+  gap: $spacing-large;
+  @include wrapper($spacing-medium)
+}

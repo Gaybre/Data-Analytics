@@ -1,0 +1,11 @@
+.container {
+  display: grid;
+  grid-template-columns: minmax(150px, 200px) 1fr;
+  grid-gap: $spacing-large;
+  @include wrapper(0);
+  div {
+    border-radius: $border-radius;
+    background-color: $grayscale-1;
+    @include shadow($grayscale-3)
+  }
+}
