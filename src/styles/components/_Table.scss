@@ -9,6 +9,10 @@
   }
   caption {
     margin: $spacing-medium auto;
+    font-size: 1.2rem;
+    span {
+      color: $primary;
+    }
   }
   thead th {
     background-color: $primary-2;

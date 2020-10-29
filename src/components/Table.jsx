@@ -4,7 +4,7 @@ const Table = ({table, data}) => {
   let id = 1
   return (
     <table className="table">
-      <caption>Tabla de resultados generales de {table }</caption>
+      <caption>Tabla de resultados generales <span>{table}</span></caption>
       <thead>
         <tr>
           <th>ASP</th>

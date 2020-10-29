@@ -53,13 +53,14 @@ const TopLine = () => {
         subtitle="¿Cómo quieres ver los datos?"
       />
       <BodyContainer
-        table='top'
+        table='Top Line'
         data={currentData}
         pagination={getPagination}
         total={topLineData.length}
         currentPage={currentPage}
         intervalData={intervalData}
         setIntervalData={setIntervalData}
+        topLineData={topLineData}
       />
     </>
   )
