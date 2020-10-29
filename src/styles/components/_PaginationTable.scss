@@ -1,0 +1,11 @@
+.pagination {
+  margin-top: $spacing-medium;
+  text-align: center;
+  &__buttons {
+    width: 100%;
+    button {
+      width: 40%;
+      margin: $spacing-medium $spacing-small;
+    }
+  }
+}

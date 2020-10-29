@@ -1,6 +1,10 @@
 .header {
+  position: sticky;
+  top: 80px;
+  width: 100%;
   display: flex;
   justify-content: space-between;
+  background-color: $grayscale-2;
   @include wrapper($spacing-medium);
   h3 {
     color: $primary;

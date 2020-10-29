@@ -2,6 +2,7 @@
 @import './Globals';
 
 // Components
+@import './components/Loader';
 @import './components/Input';
 @import './components/Button';
 @import './components/Profile';
@@ -11,6 +12,8 @@
 @import './components/TopicData';
 @import './components/Navbar';
 @import './components/BodyContainer';
+@import './components/Table';
+@import './components/PaginationTable';
 
 // Pages
 @import './pages/Login';

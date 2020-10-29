@@ -16,8 +16,8 @@
     color: black;
   }
   &__menu {
-    position: absolute;
-    top: $spacing-medium *3 + 5;
+    position: fixed;
+    top: 0;
     right: -$spacing-large *3;
     border-top-left-radius: $border-radius;
     border-bottom-left-radius: $border-radius;

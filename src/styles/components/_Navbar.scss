@@ -1,10 +1,12 @@
 .navbar {
+  position: fixed;
   width: 100%;
   height: 80px;
   display: flex;
   justify-content: space-between;
   align-items: center;
   background-color: $grayscale-1;
+  z-index: $z-index-navBav;
   @include shadow($grayscale-3);
   @include wrapper(0);
   img {

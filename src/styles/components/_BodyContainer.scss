@@ -1,11 +1,25 @@
 .container {
+  margin-top: 100px;
   display: grid;
   grid-template-columns: minmax(150px, 200px) 1fr;
-  grid-gap: $spacing-large;
+  grid-template-areas: 'options contenido';
+  grid-gap: $spacing-medium;
   @include wrapper(0);
-  div {
+  > div {
+    padding: $spacing-small;
+    margin-bottom: $spacing-large;
     border-radius: $border-radius;
     background-color: $grayscale-1;
     @include shadow($grayscale-3)
+  }
+  & div:nth-child(1) {
+    position: fixed;
+    height: fit-content;
+    width: 150px;
+    grid-area: options;
+  }
+  & div:nth-child(2) {
+    grid-area: contenido;
+    min-height: 150px;
   }
 }

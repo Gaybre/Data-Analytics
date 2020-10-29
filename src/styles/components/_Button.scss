@@ -26,6 +26,16 @@
   }
 }
 
+.btn--outline {
+  @extend %btn;
+  border:  2px solid $primary;
+  background-color: transparent;
+  color: $primary;
+  &:hover {
+    @include shadow($primary);
+  }
+}
+
 .btn--secondary {
   @extend %btn;
   margin-top: $spacing-small;
@@ -37,5 +47,15 @@
   &:hover {
     color: $primary;
     text-decoration: underline;
+  }
+}
+
+.btn--disable {
+  @extend %btn;
+  border:  2px solid $grayscale-3;
+  background-color: $grayscale-3;
+  color: $grayscale-4;
+  &:hover {
+    cursor: auto;
   }
 }
