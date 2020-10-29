@@ -1,0 +1,31 @@
+<svg id="Componente_1_1" data-name="Componente 1 – 1" xmlns="http://www.w3.org/2000/svg" width="497" height="133.358" viewBox="0 0 497 133.358">
+  <g id="bar-graph" transform="translate(0 0)">
+    <g id="Grupo_7" data-name="Grupo 7" transform="translate(0 0)">
+      <g id="Grupo_1" data-name="Grupo 1" transform="translate(8.14 68.849)">
+        <path id="Trazado_1" data-name="Trazado 1" d="M31.251,419.666H54.7V400.243L43,392.429l-11.751,7.814Z" transform="translate(-31.251 -359.064)" fill="#ff668e"/>
+        <path id="Trazado_2" data-name="Trazado 2" d="M150.745,330.786H174.19V280.059l-11.723-7.814-11.722,7.814Z" transform="translate(-119.621 -270.184)" fill="#00dc7b"/>
+        <path id="Trazado_3" data-name="Trazado 3" d="M270.739,373.3h23.445V337.543l-11.695-7.814-11.751,7.814Z" transform="translate(-208.361 -312.695)" fill="#e04496"/>
+        <path id="Trazado_4" data-name="Trazado 4" d="M390.733,272.145v52.788h23.445V272.145l-11.695-7.814Z" transform="translate(-297.101 -264.331)" fill="#00aa8e"/>
+      </g>
+      <path id="Trazado_5" data-name="Trazado 5" d="M133.439,0V23.426h-7.818V13.344L84.09,54.875,67.247,38.03,54.264,25.046,5.64,73.672.11,68.15,54.264,13.992,67.247,26.976,84.09,43.82,120.1,7.814H110.05V0Z" transform="translate(-0.081 0)" fill="#01b075"/>
+      <g id="Grupo_2" data-name="Grupo 2" transform="translate(8.195 86.586)">
+        <path id="Trazado_6" data-name="Trazado 6" d="M31.465,332.429H54.854v23.442H31.465Z" transform="translate(-31.465 -332.429)" fill="#eaf4f4"/>
+      </g>
+      <g id="Grupo_3" data-name="Grupo 3" transform="translate(39.264 55.282)">
+        <path id="Trazado_7" data-name="Trazado 7" d="M150.745,212.245H174.19v23.442H150.745Z" transform="translate(-150.745 -212.245)" fill="#eaf4f4"/>
+      </g>
+      <g id="Grupo_4" data-name="Grupo 4" transform="translate(70.574 70.255)">
+        <path id="Trazado_8" data-name="Trazado 8" d="M270.953,269.729h23.389v23.442H270.953Z" transform="translate(-270.953 -269.729)" fill="#cae8ea"/>
+      </g>
+      <g id="Grupo_5" data-name="Grupo 5" transform="translate(101.73 53.221)">
+        <path id="Trazado_9" data-name="Trazado 9" d="M390.573,204.331h23.585v23.442H390.573Z" transform="translate(-390.573 -204.331)" fill="#cae8ea"/>
+      </g>
+      <g id="Grupo_6" data-name="Grupo 6" transform="translate(0 125.544)">
+        <path id="Trazado_10" data-name="Trazado 10" d="M0,482H133.358v7.814H0Z" transform="translate(0 -482)" fill="#eaf4f4"/>
+      </g>
+      <path id="Trazado_11" data-name="Trazado 11" d="M324.062,0V23.426h-7.818V13.344l-41.53,41.531L257.871,38.03V26.976L274.714,43.82,310.719,7.814H300.673V0Z" transform="translate(-190.705 0)" fill="#01b075"/>
+      <path id="Trazado_12" data-name="Trazado 12" d="M256,482h66.679v7.814H256Z" transform="translate(-189.321 -356.456)" fill="#cae8ea"/>
+    </g>
+  </g>
+  <text id="Data_Analytics" data-name="Data Analytics" transform="translate(159 87.293)" fill="#132605" font-size="50" font-family="SegoeUI-Bold, Segoe UI" font-weight="700"><tspan x="0" y="0">Data</tspan><tspan y="0" fill="#707070"> </tspan><tspan y="0" fill="#01b075">Analytics</tspan></text>
+</svg>
