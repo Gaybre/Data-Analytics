@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Data-Analytics/static/css/main.0d0de222.chunk.css",
+    "main.css": "/Data-Analytics/static/css/main.544da824.chunk.css",
     "main.js": "/Data-Analytics/static/js/main.f01ff009.chunk.js",
     "main.js.map": "/Data-Analytics/static/js/main.f01ff009.chunk.js.map",
     "runtime-main.js": "/Data-Analytics/static/js/runtime-main.a55b2865.js",
@@ -8,7 +8,7 @@
     "static/js/2.eee06071.chunk.js": "/Data-Analytics/static/js/2.eee06071.chunk.js",
     "static/js/2.eee06071.chunk.js.map": "/Data-Analytics/static/js/2.eee06071.chunk.js.map",
     "index.html": "/Data-Analytics/index.html",
-    "static/css/main.0d0de222.chunk.css.map": "/Data-Analytics/static/css/main.0d0de222.chunk.css.map",
+    "static/css/main.544da824.chunk.css.map": "/Data-Analytics/static/css/main.544da824.chunk.css.map",
     "static/js/2.eee06071.chunk.js.LICENSE.txt": "/Data-Analytics/static/js/2.eee06071.chunk.js.LICENSE.txt",
     "static/media/styles.scss": "/Data-Analytics/static/media/logo.6d5ac224.svg",
     "static/media/logo-negativo.56826a7d.svg": "/Data-Analytics/static/media/logo-negativo.56826a7d.svg"
@@ -16,7 +16,7 @@
   "entrypoints": [
     "static/js/runtime-main.a55b2865.js",
     "static/js/2.eee06071.chunk.js",
-    "static/css/main.0d0de222.chunk.css",
+    "static/css/main.544da824.chunk.css",
     "static/js/main.f01ff009.chunk.js"
   ]
 }
